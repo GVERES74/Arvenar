@@ -15,7 +15,7 @@ import java.util.Scanner;
  *
  * @author VERESG
  */
-public class ElsoProject{
+public class Elvenar_App{
 
     public static void main(String[] args){
     
@@ -23,7 +23,9 @@ public class ElsoProject{
         int opt = 0;
                 
         do {
-        System.out.println("Choose option:\n 1 - Start Fight \n 2 - Trade \n 3 - Player Stats \n 4 - Exit game \n");
+        
+        System.out.println("Elvenar Tales by Gabor Veres - 2018 \n");    
+        System.out.println("Please choose option:\n 1 - Start Fight \n 2 - Trade \n 3 - Player Stats \n 4 - Exit game \n");
         System.out.println("Waiting for input: ");
                 
         Scanner c = new Scanner(System.in);
